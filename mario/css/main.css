@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'hylia_serif_betaregular';
+    src: url('../hylian/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('../hylian/hyliaserifbeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    font-family: 'hylia_serif_betaregular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #6ebd5e;
+}
+
+
+
+footer {
+    font-family: 'hylia_serif_betaregular';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #ed131a;
+    box-sizing: border-box;
+    border: 0.2rem solid#251d1c;
+    padding: 2rem;
+    color: #1a4cd2;
+}
+h1 {
+    font-family: 'hylia_serif_betaregular';
+    font-style: italic;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'hylia_serif_betaregular';
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0.75rem auto;
+    padding: 0.25rem 0.5rem 0.25rem 1rem;
+    text-align: left;
+    font-family: 'hylia_serif_betaregular';
+    font-style: italic;
+    font-weight: normal;
+    border-left: 3px solid #d8a767;
+    background: whitesmoke;
+}
+.pics {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.pics2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+ .pics3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+ .pics4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+.mario {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.paper-mario {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mario-donkey {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.donkey {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.doctor {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mario-world {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.paper-goomba {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.goomba {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.paper-yoshi {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.yoshi {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img {
+    width: 15.5rem;
+    height: 14.5rem;
+    max-width: calc(100% - 2rem);
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    margin-right: 0.25rem;
+}
+.content {
+    margin: 2rem auto;
+    background: #b0b9b3;
+    width: 50rem;
+    max-width: calc(100% - 2rem);
+    word-break: break-word;
+    padding: 0.5rem, 0.5rem, 0.5rem, 1rem;
+    box-sizing: border-box;
+}
+.first-letter {
+    font-size: 2rem;
+}
+p {
+    text-align: left;
+    padding: 0.25rem 0.5rem 0.0rem 1rem;
+    box-sizing: border-box;
+    width: 50rem;
+    max-width: calc(100% - 1rem);
+}
+figure {
+    border: thin #e60274 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    max-width: calc(30% - 2rem);
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+figcaption {
+    background-color: rgb(211, 6, 6);
+    color: rgb(7, 39, 223);
+    font: italic smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+}
+video {
+    width: 25rem;
+}
